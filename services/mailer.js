@@ -1,7 +1,5 @@
 const sgMail = require("@sendgrid/mail");
 
-console.log(process.env.SG_KEY);
-
 sgMail.setApiKey(process.env.SG_KEY);
 
 const sendSGMail = async ({
@@ -13,7 +11,7 @@ const sendSGMail = async ({
   text,
 }) => {
   try {
-    const from = sender || "jasimihsan@outlook.com";
+    const from = "shreyanshshah242@gmail.com";
 
     const msg = {
       to: to, // Change to your recipient
