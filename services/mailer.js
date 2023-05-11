@@ -11,7 +11,7 @@ const sendSGMail = async ({
   text,
 }) => {
   try {
-    const from = "shreyanshshah242@gmail.com";
+    const from = "jasimihsan@outlook.com";
 
     const msg = {
       to: to, // Change to your recipient
