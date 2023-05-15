@@ -12,6 +12,7 @@ const sendSGMail = async ({
 }) => {
   try {
     const from = "jasimihsan2@gmail.com";
+
     const msg = {
       to: to, // Change to your recipient
       from: from, // Change to your verified sender
